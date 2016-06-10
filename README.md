@@ -1,2 +1,1 @@
-# js-template
-JS project template
+# JS project template
