@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  js-template:
+    build: .
+    command: npm run dev
+    volumes:
+      - .:/home/app/js-template
+      - /home/app/js-template/node_modules
+    ports:
+        - "8080:8080"
