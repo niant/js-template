@@ -4,6 +4,9 @@ module.exports = {
     path: __dirname + '/dist/',
     filename: 'bundle.js'
   },
+  watchOptions: {
+    poll: true
+  },
   module: {
     loaders: [
       {

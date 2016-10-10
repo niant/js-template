@@ -6,7 +6,7 @@
   "main": "app/components/main.js",
   "scripts": {
     "build": "webpack && cp app/index.html dist/index.html",
-    "dev": "webpack-dev-server --content-base app --inline --hot",
+    "dev": "webpack-dev-server --host 0.0.0.0 --content-base app --inline --hot",
     "prebuild": "npm install"
   },
   "author": "",
